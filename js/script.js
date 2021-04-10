@@ -1,6 +1,6 @@
 document.querySelector(".createTable").addEventListener('click',CreateTable)
 
-CreateTable()
+//CreateTable()   uncomment if you want to open page already with 2x2 table
 
 function CreateTable() {
     let row = document.querySelector(".rows").value
